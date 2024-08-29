@@ -7,6 +7,8 @@ hide: true
 
 # Hello!
 
-My name is Aadi. I am a sophomore at Del Norte High School and I am taking AP Computer Science Principles.
+Welcome to my webpage.
 
-My SSN: `1`
+Look at this cute cat 🐈‍⬛
+
+<img src = "images/cat.gif">

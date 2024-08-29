@@ -12,6 +12,8 @@ So far in my journey in AP Computer Science Principles, I:
 - Made my own repository and cloned it into my `nighthawk` folder
 - Changed the `index.md` markdown file and made my first commit
 
+<img src="../images/linux.png">
+
 <!---
 So far in my journey in AP CSP, I did the following:
 
