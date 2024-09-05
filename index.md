@@ -200,7 +200,7 @@ image: /images/mario_animation.png
     function openImageFullscreen() {
         // Create an image element dynamically
         let img = document.createElement("img");
-        img.src = "images/scary.jpg"; // Path to the image in the images folder
+        img.src = "images/bsod.png"; // Path to the image in the images folder
         img.style.width = "100%"; // Full width for fullscreen effect
         img.style.height = "100%"; // Full height for fullscreen effect
         img.style.position = "fixed"; // Fixed position for fullscreen
@@ -220,13 +220,14 @@ image: /images/mario_animation.png
         } else if (img.msRequestFullscreen) { // IE/Edge
             img.msRequestFullscreen();
         }
-        var scary = new Audio("assets/audio/superscary.wav");
+        var scary = new Audio("assets/audio/error.mp3");
         scary.play();
 
         // Add an event listener to exit fullscreen on click
         img.addEventListener("click", function() {
             document.exitFullscreen();
             document.body.removeChild(img); // Remove the image after exiting fullscreen
+            const content = document.getElementById('content');
         });
     }
 </script>
