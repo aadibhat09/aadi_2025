@@ -7,7 +7,7 @@ image: /images/mario_animation.png
 ---
 
 # Hello!
-
+<br>
 <!-- Liquid:  statements -->
 
 <!-- Include submenu from _includes to top of pages -->
@@ -241,7 +241,7 @@ Mario is an Italian plumber who goes through several insane adventures to save P
 <script>
   const person = {
       name: "Aadi Bhat",
-      age: "15",
+      age: 15,
       currentClasses:
         ["HPoE",
         "World History",
@@ -250,10 +250,20 @@ Mario is an Italian plumber who goes through several insane adventures to save P
         "AP CSP",
         "AP English Seminar"],
       interests:
-        ["George Bush",
-        "George Shrub",
-        "George Hedge"],
+        ["Robotics",
+        "Cybersecurity",
+        "Piano"],
       favoriteAnimal: "Monkey",
       favoriteColor: "Red"
   };
+  console.log(person);
+  person["favoriteAnimal"] = "Armadillo";
+  person["favoriteColor"] = "Orange";
+  console.log(person);
+  person["age"] += 100;
+  console.log("Your age in 100 years is " + person["age"]);
+  console.log("The type of the value age is " + typeof person["age"]);
+  console.log("The type of the value interests is " + typeof person["interests"]);
+  console.log("The type of the value favoriteColor is " + typeof person["favoriteColor"]);
+
 </script>
