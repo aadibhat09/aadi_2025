@@ -19,9 +19,10 @@ remote_theme: pages-themes/midnight@v0.2.0
 plugins:
   - jekyll-remote-theme
 header_pages:
+  - navigation/cookie.md
   - navigation/about.md
-  - navigation/blog.md
-  - navigation/search.md
+  # - navigation/blog.md
+  # - navigation/search.md
   - navigation/team.md
   - navigation/journey.md
   - README4YML.md
