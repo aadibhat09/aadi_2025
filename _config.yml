@@ -11,7 +11,7 @@ minima:
   social_links:
     - { platform: github, user_url: "https://github.com/aadibhat09"}
     - { platform: youtube, user_url: "https://www.youtube.com/@Aadi_Bhat" } 
-# remote_theme: pages-themes/midnight@v0.2.0
+remote_theme: pages-themes/midnight@v0.2.0
 # remote_theme: pages-themes/cayman@v0.2.0
 # remote_theme: pages-themes/dinky@v0.2.0
 # remote_theme: pages-themes/minimal@v0.2.0
@@ -19,8 +19,10 @@ minima:
 plugins:
   - jekyll-remote-theme
 header_pages:
+  - navigation/about.md
   - navigation/blog.md
   - navigation/search.md
   - navigation/team.md
   - navigation/journey.md
   - README4YML.md
+

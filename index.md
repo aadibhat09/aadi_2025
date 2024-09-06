@@ -192,6 +192,12 @@ image: /images/mario_animation.png
 
 </script>
 
+My name is Aadi. I am a sophomore at Del Norte High School and I am taking AP Computer Science Principles.
+
+Mario is an Italian plumber who goes through several insane adventures to save Princess Peach. Today, he is stuck on this webpage. Please use your arrow keys to help Mario escape this website and continue to save the Princess!
+
+<img src="images/cat.gif">
+
 <button onclick="openImageFullscreen()">Click here to see my team!</button>
 
 <button><a href="team">No, click here to see my team!</a></button>
@@ -230,4 +236,24 @@ image: /images/mario_animation.png
             const content = document.getElementById('content');
         });
     }
+</script>
+
+<script>
+  const person = {
+      name: "Aadi Bhat",
+      age: "15",
+      currentClasses:
+        ["HPoE",
+        "World History",
+        "AP Chem",
+        "AP Calc AB",
+        "AP CSP",
+        "AP English Seminar"],
+      interests:
+        ["George Bush",
+        "George Shrub",
+        "George Hedge"],
+      favoriteAnimal: "Monkey",
+      favoriteColor: "Red"
+  };
 </script>
