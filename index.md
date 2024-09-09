@@ -199,7 +199,7 @@ Mario is an Italian plumber who goes through several insane adventures to save P
 <img src="images/cat.gif">
 
 <button onclick="bsod()">Click here to see my team!</button>
-
+<button><a href="team">jk click here</a></button>
 <script src="assets/js/bsod.js"></script>
 
 <script id="Data Types Hack">
