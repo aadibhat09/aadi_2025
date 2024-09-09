@@ -1,0 +1,12 @@
+import wikipedia 
+from IPython.display import display, Markdown # add for Jupyter
+
+terms = ["Python (programming language)", "JavaScript"]
+for term in terms:
+    # Search for a page 
+    result = wikipedia.search(term)
+    # Get the summary of the first result
+    summary = wikipedia.summary(result[0])
+    print(term) 
+    # print(summary) # console display
+    display(Markdown(summary)) # Jupyter display
