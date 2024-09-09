@@ -200,11 +200,9 @@ Mario is an Italian plumber who goes through several insane adventures to save P
 
 <button onclick="bsod()">Click here to see my team!</button>
 
-<button><a href="team">No, click here to see my team!</a></button>
-
 <script src="assets/js/bsod.js"></script>
 
-<script>
+<script id="Data Types Hack">
   const person = {
       name: "Aadi Bhat",
       age: 15,
@@ -232,4 +230,24 @@ Mario is an Italian plumber who goes through several insane adventures to save P
   console.log("The type of the value interests is " + typeof person["interests"]);
   console.log("The type of the value favoriteColor is " + typeof person["favoriteColor"]);
 
+</script>
+
+<script id="JavaScript Hack">
+  var a = 1;
+  var b = 2;
+  if (a < b) {
+    console.log("a is less than b");
+  } else if (a > b) {
+    console.log("a is greater than b");
+  } else {
+    console.log("a and b are equal");
+  }
+  var x = 10;
+  var y = 5;
+  console.log("x plus y = " + x + y);
+  console.log("x minus y = " + x - y);
+  console.log("x times y = " + x*y);
+  console.log("x divided by y = " + x/y);
+  console.log("x to the power of y = " + x**y);
+  console.log("x modulo y = " + x%y);
 </script>
