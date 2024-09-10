@@ -12,6 +12,7 @@ minima:
     - { platform: github, user_url: "https://github.com/aadibhat09"}
     - { platform: youtube, user_url: "https://www.youtube.com/@Aadi_Bhat" } 
 remote_theme: pages-themes/midnight@v0.2.0
+remote-theme: pages-themes/
 # remote_theme: pages-themes/cayman@v0.2.0
 # remote_theme: pages-themes/dinky@v0.2.0
 # remote_theme: pages-themes/minimal@v0.2.0
@@ -22,7 +23,7 @@ header_pages:
   - navigation/random-links.md
   - navigation/cookie.md
   - navigation/about.md
-  # - navigation/blog.md
+  - navigation/blog.md
   # - navigation/search.md
   - navigation/team.md
   - navigation/journey.md

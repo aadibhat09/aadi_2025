@@ -196,10 +196,29 @@ My name is Aadi. I am a sophomore at Del Norte High School and I am taking AP Co
 
 Mario is an Italian plumber who goes through several insane adventures to save Princess Peach. Today, he is stuck on this webpage. Please use your arrow keys to help Mario escape this website and continue to save the Princess!
 
+<button><a href="cookie-clicker">Cookie Clicker</a></button>
+
+<button><a href="random-links">Random Link Generator</a></button>
+
+<button><a href="about">About Me</a></button>
+
+<button><a href="team">Team..?</a></button>
+
+<button onclick="bsod()">Team..?</button>
+
 <img src="images/cat.gif">
 
-<button onclick="bsod()">Click here to see my team!</button>
-<button><a href="team">jk click here</a></button>
+<style>
+  button a{
+    color:black;
+
+  }
+  button a:hover{
+    color:black;
+    text-decoration:none;
+  }
+</style>
+
 <script src="assets/js/bsod.js"></script>
 
 <script id="Data Types Hack">
