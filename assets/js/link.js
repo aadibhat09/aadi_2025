@@ -81,4 +81,9 @@ function switchLink() {
   document.getElementById("count").innerText = String(
     parseInt(document.getElementById("count").innerText) + 1
   );
+  if (document.getElementById("count").innerText == "1") {
+    document.getElementById("s").innerText = "";
+  } else {
+    document.getElementById("s").innerText = "s";
+  }
 }
