@@ -97,7 +97,6 @@ permalink: /about/
   <span class="dot" onclick="currentSlide(10)"></span>
 </div>
 
-
 <style>
 * {box-sizing:border-box}
 
