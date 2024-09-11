@@ -5,4 +5,4 @@ search_exclude: true
 permalink: /blogs/
 ---
 
-- [Mario](mario)
+<br>
