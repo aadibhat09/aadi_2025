@@ -204,11 +204,15 @@ My name is Aadi. I am a sophomore at Del Norte High School and I am taking AP Co
 
 Mario is an Italian plumber who goes through several insane adventures to save Princess Peach. Today, he is stuck on this webpage. Please use your arrow keys to help Mario escape this website and continue to save the Princess!
 
-<button><a href="posts/mario">Click to see my new post about Mario!</a></button>
-
-<button><a href="posts/python-functions">Click here to see my new post about Python functions!</a></button>
-
-<button onclick="bsod()">Click here for $1,000,000!</button>
+<div class="dropdown">
+  <button class="dropbtn">Buttons</button>
+  <div class="dropdown-content">
+    <button><a href="posts/mario">Click to see my new post about Mario!</a></button>
+    <button><a href="posts/python-functions">Click here to see my new post about Python functions!</a></button>
+    <button onclick="bsod()">Click here for $1,000,000!</button>
+  </div>
+</div>
+<br>
 
 <img src="images/cat.gif">
 
@@ -221,6 +225,46 @@ Mario is an Italian plumber who goes through several insane adventures to save P
     color:black;
     text-decoration:none;
   }
+  .dropbtn {
+    background-color: #A2CFFE;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius:10px;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover, button:hover {background-color: #ddd;}
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
 </style>
 
 <script src="assets/js/bsod.js"></script>
