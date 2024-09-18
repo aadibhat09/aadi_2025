@@ -1,8 +1,10 @@
 ---
 layout: page
-title: My Journey
+title: Journey 🚀
 permalink: /journey/
 ---
+
+<br>
 
 So far in my journey in AP Computer Science Principles, I:
 

@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Team
+title: Team 👥
 permalink: /team/
 ---
+
+<br>
 
 Meet my group:
 
