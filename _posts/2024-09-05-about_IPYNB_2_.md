@@ -182,12 +182,3 @@ comments: True
 </style>
 
 <script src="../assets/js/slideshow.js"></script>
-
-<div id="comments"></div>
-<script src="https://utteranc.es/client.js"
-        repo="aadibhat09/aadi_2025"
-        issue-term="pathname"
-        theme="github-dark"
-        crossorigin="anonymous"
-        async>
-</script>

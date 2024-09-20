@@ -270,3 +270,10 @@ Mario is an Italian plumber who goes through several insane adventures to save P
 
 <script src="assets/js/bsod.js"></script>
 
+<script src="https://utteranc.es/client.js"
+        repo="aadibhat09/aadi_2025"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
