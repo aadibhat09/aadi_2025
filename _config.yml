@@ -1,9 +1,9 @@
 title: Aadi's Website
 description: "Class of 2025"
 owner_name: Aadi Bhat
-github_username: nighthawkcoders
+github_username: aadibhat09
 github_repo: "aadi_2025" 
-baseurl: "/site"
+baseurl: "/aadi_2025"
 future: true
 remote_theme: jekyll/minima
 minima:
