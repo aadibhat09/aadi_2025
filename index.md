@@ -207,6 +207,7 @@ Mario is an Italian plumber who goes through several insane adventures to save P
 <div class="dropdown">
   <button class="dropbtn">Buttons</button>
   <div class="dropdown-content">
+    <button><a href="posts/about-me">Click here to see my new post about me!</a></button>
     <button><a href="posts/mario">Click to see my new post about Mario!</a></button>
     <button><a href="posts/python-functions">Click here to see my new post about Python functions!</a></button>
     <button onclick="bsod()">Click here for $1,000,000!</button>
@@ -269,52 +270,11 @@ Mario is an Italian plumber who goes through several insane adventures to save P
 
 <script src="assets/js/bsod.js"></script>
 
-<script id="Data Types Hack">
-  const person = {
-      name: "Aadi Bhat",
-      age: 15,
-      currentClasses:
-        ["HPoE",
-        "World History",
-        "AP Chem",
-        "AP Calc AB",
-        "AP CSP",
-        "AP English Seminar"],
-      interests:
-        ["Robotics",
-        "Cybersecurity",
-        "Piano"],
-      favoriteAnimal: "Monkey",
-      favoriteColor: "Red"
-  };
-  console.log(person);
-  person["favoriteAnimal"] = "Armadillo";
-  person["favoriteColor"] = "Orange";
-  console.log(person);
-  person["age"] += 100;
-  console.log("Your age in 100 years is " + person["age"]);
-  console.log("The type of the value age is " + typeof person["age"]);
-  console.log("The type of the value interests is " + typeof person["interests"]);
-  console.log("The type of the value favoriteColor is " + typeof person["favoriteColor"]);
-
-</script>
-
-<script id="JavaScript Hack">
-  var a = 1;
-  var b = 2;
-  if (a < b) {
-    console.log("a is less than b");
-  } else if (a > b) {
-    console.log("a is greater than b");
-  } else {
-    console.log("a and b are equal");
-  }
-  var x = 10;
-  var y = 5;
-  console.log("x plus y = " + x + y);
-  console.log("x minus y = " + x - y);
-  console.log("x times y = " + x*y);
-  console.log("x divided by y = " + x/y);
-  console.log("x to the power of y = " + x**y);
-  console.log("x modulo y = " + x%y);
+<div id="comments"></div>
+<script src="https://utteranc.es/client.js"
+        repo="aadibhat09/aadi_2025"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
 </script>
