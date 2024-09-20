@@ -187,7 +187,7 @@ comments: True
 <script src="https://utteranc.es/client.js"
         repo="aadibhat09/aadi_2025"
         issue-term="pathname"
-        theme="github-light"
+        theme="github-dark"
         crossorigin="anonymous"
         async>
 </script>
