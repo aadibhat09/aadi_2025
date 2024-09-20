@@ -185,7 +185,7 @@ comments: True
 
 <div id="comments"></div>
 <script src="https://utteranc.es/client.js"
-        repo="adik1025/adi_student"
+        repo="aadibhat09/aadi_2025"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
