@@ -22,8 +22,9 @@ comments: True
   <li>I am a member of Team Optix 3749!</li>
   <li>I am a member of CyberAegis.</li>
   <li>Apart from AP CSP this year, I am also taking HPoE, World History, AP Calc AB, AP Chem, and AP English Seminar.</li>
-  <li>My favorite artists are Abel, Metro, and Future. This is one of my favorite songs:</li>
-  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6qjlcNvLc0kEO2LVvkYx0u?utm_source=generator" width="50%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <li>My favorite artist is The Weeknd. This is one of my favorite songs:</li>
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0Hs5enNuaAXmJssAybWbOw?utm_source=generator" width="50%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  
 </ul>
 
 <div class="slideshow-container">

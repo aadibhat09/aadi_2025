@@ -3,7 +3,7 @@ layout: post
 title: Basic Python Functions
 description: Let's learn some basic Python functions!
 permalink: /posts/python-functions
-comments: True
+comments: False
 ---
 
 <br>
