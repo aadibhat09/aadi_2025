@@ -3,7 +3,7 @@ layout: post
 title: Mario
 description: A random post about Mario!
 permalink: /posts/mario
-comments: True
+comments: False
 ---
 
 <br>
