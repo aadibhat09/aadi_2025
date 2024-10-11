@@ -3,7 +3,7 @@ layout: post
 title: JavaScript
 description: Let's learn some basic JavaScript functions!
 permalink: /posts/javascript-functions
-comments: False
+comments: True
 ---
 
 <br>
