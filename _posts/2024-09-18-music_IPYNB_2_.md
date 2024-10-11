@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Javascript iTunes API
-description: Using the iTunes API to search for songs!
+description: APIs are a primary source for obtaining data from the internet. There is information in APIs for almost any interest.
 permalink: /posts/itunes-api
 toc: True
 comments: False
