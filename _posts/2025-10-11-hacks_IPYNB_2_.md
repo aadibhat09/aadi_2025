@@ -125,9 +125,6 @@ def counter(n):
 counter(int(input("Enter any number! ")))
 ```
 
-    Come on man...
-
-
 <br>
 
 # 3.7
@@ -197,8 +194,8 @@ def caesar(string, shift):
 
             # Add the shifted character to the new string
             index = alphabet.index(character.lower())
-            new_index = index + shift
-            new_string += alphabet[new_index]
+            new_index = index + (shift % 26)
+            new_string += (alphabet*2)[new_index]
         
         # Otherwise...
         else:
