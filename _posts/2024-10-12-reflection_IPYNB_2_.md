@@ -12,7 +12,7 @@ comments: True
 
 <br>
 
-The key concepts in this unit have been helping me prepare for challenge-based and project-based learning. These lessons have given me a deeper understanding of data types, variables, conditionals, and operators. Our group collaborated well to create our content and our class communicated well to get things done efficiently. I also implemented several unique aspects to our lesson, including interactive quizzes on each page. This shows that I am ready for challenge-based and project-based learning.
+The key concepts in this unit have been helping me prepare for challenge-based and project-based learning that CollegeBoard will challenge me with. These lessons have given me a deeper understanding of data types, variables, conditionals, and operators. Our group collaborated well to create our content and our class communicated well to get things done efficiently. I also implemented several unique aspects to our lesson, including interactive quizzes on each page. This shows that I am ready for challenge-based and project-based learning.
 
 <br>
 
