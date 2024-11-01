@@ -14,7 +14,7 @@ permalink: /instabox/
         padding: 0;
     }
     h1 {
-        /* Secret comment! */
+        /* Secret comment */
         text-align: center;
         background-color: #6a59a3;
         padding: 10px;
