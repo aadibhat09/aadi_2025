@@ -45,7 +45,7 @@ I chose answer D, which is `temp <-- second`. However, this is incorrect as it s
 
 <br>
 
-<img src="../images/cb-reflection/q17.png" width="200px" height="auto">
+<img src="../images/cb-reflection/q17.png" width="400px" height="auto">
 
 Answer: D
 ```
