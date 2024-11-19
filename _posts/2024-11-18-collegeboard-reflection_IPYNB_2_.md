@@ -164,3 +164,10 @@ The ability to quickly update encyclopedia content as new information becomes av
 <br>
 
 I chose answers A and D. Answer A is `The ability to easily check that the encyclopedia is free of copyrighted content`. However, this is incorrect as the online encyclopedia can be edited by any user and thus cannot be easily checked for copyrighted content.
+
+<br>
+<hr>
+
+## Wrapping up
+
+Before I took this MCQ, I did not know about topics such as citizen science, public and private keys, and much more. I was able to answer most of these questions, especially ones asking what the program does or what to change to make it work, as I have past knowledge in programming. This MCQ shows me that I need to work on non-programming-related topics that are still in the scope of this class.
