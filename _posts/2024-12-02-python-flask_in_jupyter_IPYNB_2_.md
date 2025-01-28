@@ -45,6 +45,38 @@ These libraries are required to run and interact with the Python web server.
 !pip install flask flask-cors requests
 ```
 
+    Collecting flask
+      Downloading flask-3.1.0-py3-none-any.whl.metadata (2.7 kB)
+    Collecting flask-cors
+      Downloading Flask_Cors-5.0.0-py2.py3-none-any.whl.metadata (5.5 kB)
+    Requirement already satisfied: requests in /home/aadib/nighthawk/aadi_2025/venv/lib/python3.12/site-packages (2.32.3)
+    Collecting Werkzeug>=3.1 (from flask)
+      Downloading werkzeug-3.1.3-py3-none-any.whl.metadata (3.7 kB)
+    Requirement already satisfied: Jinja2>=3.1.2 in /home/aadib/nighthawk/aadi_2025/venv/lib/python3.12/site-packages (from flask) (3.1.4)
+    Collecting itsdangerous>=2.2 (from flask)
+      Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+    Collecting click>=8.1.3 (from flask)
+      Downloading click-8.1.7-py3-none-any.whl.metadata (3.0 kB)
+    Collecting blinker>=1.9 (from flask)
+      Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+    Requirement already satisfied: charset-normalizer<4,>=2 in /home/aadib/nighthawk/aadi_2025/venv/lib/python3.12/site-packages (from requests) (3.4.0)
+    Requirement already satisfied: idna<4,>=2.5 in /home/aadib/nighthawk/aadi_2025/venv/lib/python3.12/site-packages (from requests) (3.10)
+    Requirement already satisfied: urllib3<3,>=1.21.1 in /home/aadib/nighthawk/aadi_2025/venv/lib/python3.12/site-packages (from requests) (2.2.3)
+    Requirement already satisfied: certifi>=2017.4.17 in /home/aadib/nighthawk/aadi_2025/venv/lib/python3.12/site-packages (from requests) (2024.8.30)
+    Requirement already satisfied: MarkupSafe>=2.0 in /home/aadib/nighthawk/aadi_2025/venv/lib/python3.12/site-packages (from Jinja2>=3.1.2->flask) (3.0.2)
+    Downloading flask-3.1.0-py3-none-any.whl (102 kB)
+    [2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m103.0/103.0 kB[0m [31m3.2 MB/s[0m eta [36m0:00:00[0m
+    [?25hDownloading Flask_Cors-5.0.0-py2.py3-none-any.whl (14 kB)
+    Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+    Downloading click-8.1.7-py3-none-any.whl (97 kB)
+    [2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m97.9/97.9 kB[0m [31m8.1 MB/s[0m eta [36m0:00:00[0m
+    [?25hDownloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+    Downloading werkzeug-3.1.3-py3-none-any.whl (224 kB)
+    [2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m224.5/224.5 kB[0m [31m11.5 MB/s[0m eta [36m0:00:00[0m
+    [?25hInstalling collected packages: Werkzeug, itsdangerous, click, blinker, flask, flask-cors
+    Successfully installed Werkzeug-3.1.3 blinker-1.9.0 click-8.1.7 flask-3.1.0 flask-cors-5.0.0 itsdangerous-2.2.0
+
+
 ### Start Web Server
 This Python code provides a simple server with an accessible API.
 
@@ -100,8 +132,13 @@ def say_hello():
         <title>Hellox</title>
     </head>
     <body>
-        <h2>Hello, World!</h2>
+        <h2>Hello, E!!@#!@#!</h2>
     </body>
+    <style>
+        body {
+            background-color:#ff0000;
+        }
+    </style>
     </html>
     """
     return html_content
@@ -137,6 +174,57 @@ curl http://localhost:5001/
 
 ```
 
+    Python open files on port 5001
+    COMMAND  PID  USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+    python  1926 aadib    3u  IPv4  43037      0t0  TCP localhost:5001 (LISTEN)
+    
+    Python process
+
+
+    your 131072x1 screen size is bogus. expect trouble
+
+
+        PID TTY          TIME CMD
+        765 pts/2    00:00:00 sh
+        766 pts/2    00:00:00 sh
+        771 pts/2    00:00:00 sh
+        775 pts/2    00:00:03 node
+       1226 pts/2    00:00:00 node
+       1260 pts/2    00:00:07 node
+       1278 pts/2    00:00:01 node
+       1291 pts/2    00:00:00 pet
+       1591 pts/2    00:00:00 python
+       1653 pts/2    00:00:07 node
+       1842 pts/2    00:00:02 node
+       1926 pts/2    00:00:00 python
+       1967 pts/2    00:00:00 bash
+       1971 pts/2    00:00:00 xargs
+       1972 pts/2    00:00:00 ps
+    
+    Content of the Python root endpoint (aka /), using curl,
+
+
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+    100   226  100   226    0     0  77530      0 --:--:-- --:--:-- --:--:--  110k
+
+
+    
+        <html>
+        <head>
+            <title>Hellox</title>
+        </head>
+        <body>
+            <h2>Hello, E!!@#!@#!</h2>
+        </body>
+        <style>
+            body {
+                background-color:#ff0000;
+            }
+        </style>
+        </html>
+        
+
 ### Access data from our Flask server using Python
 The code block below shows alternate ways to access the Web Server.
 1. Import requests and use it to obtain response from endpoints
@@ -160,6 +248,47 @@ response = requests.get('http://127.0.0.1:5001/unknown-page')
 print("Print Status Message:", response)
 ```
 
+    Print Status Message: <Response [200]>
+    
+    Print Raw HTML:
+     
+        <html>
+        <head>
+            <title>Hellox</title>
+        </head>
+        <body>
+            <h2>Hello, E!!@#!@#!</h2>
+        </body>
+        <style>
+            body {
+                background-color:#ff0000;
+            }
+        </style>
+        </html>
+        
+
+
+
+
+<html>
+<head>
+    <title>Hellox</title>
+</head>
+<body>
+    <h2>Hello, E!!@#!@#!</h2>
+</body>
+<style>
+    body {
+        background-color:#ff0000;
+    }
+</style>
+</html>
+
+
+
+    Print Status Message: <Response [404]>
+
+
 
 ```python
 import requests
@@ -167,6 +296,28 @@ import requests
 response = requests.get('http://127.0.0.1:5001/api/data')
 response.json()
 ```
+
+
+
+
+    [{'DOB': 'October 21',
+      'Email': 'jmortensen@powayusd.com',
+      'FirstName': 'John',
+      'LastName': 'Mortensen',
+      'Owns_Cars': ['2015-Fusion',
+       '2011-Ranger',
+       '2003-Excursion',
+       '1997-F350',
+       '1969-Cadillac'],
+      'Residence': 'San Diego'},
+     {'DOB': 'February 27',
+      'Email': 'slopez@powayusd.com',
+      'FirstName': 'Shane',
+      'LastName': 'Lopez',
+      'Owns_Cars': ['2021-Insight'],
+      'Residence': 'San Diego'}]
+
+
 
 ### Access data from our Flask server using JavaScript
 This sample is very similar to Full-Stack as the JavaScript is running through Jupyter and the Web server is a Python Process running on our machine (local server).
@@ -255,6 +406,84 @@ This sample is very similar to Full-Stack as the JavaScript is running through J
 
 ```
 
+
+
+<h1>Access data from our Flask server using JavaScript</h1>
+
+<p>This code extracts data "live" from a local Web Server with JavaScript fetch.  Additionally, it formats the data into a table.</p>
+
+<!-- Head contains information to Support the Document -->
+
+
+<!-- HTML table fragment for page -->
+<table id="demo" class="table">
+  <thead>
+      <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Residence</th>
+      </tr>
+  </thead>
+  <tbody id="result">
+    <!-- javascript generated data -->
+  </tbody>
+</table>
+
+<script>
+  // prepare HTML result container for new output
+  let resultContainer = document.getElementById("result");
+
+  // prepare URL
+  url = "http://127.0.0.1:5001/api/data";
+
+  // set options for cross origin header request
+  let options = {
+    method: 'GET', // *GET, POST, PUT, DELETE, etc.
+    mode: 'cors', // no-cors, *cors, same-origin
+    cache: 'default', // *default, no-cache, reload, force-cache, only-if-cached
+    credentials: 'include', // include, *same-origin, omit
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  };
+
+  // fetch the API
+  fetch(url, options)
+    // response is a RESTful "promise" on any successful fetch
+    .then(response => {
+      // check for response errors and display
+      if (response.status !== 200) {
+          console.error(response.status);
+          return;
+      }
+      // valid response will contain json data
+      response.json().then(data => {
+          console.log(data);
+          for (const row of data) {
+            // tr and td build out for each row
+            const tr = document.createElement("tr");
+            const firstname = document.createElement("td");
+            const lastname = document.createElement("td");
+            const residence = document.createElement("td");
+            // data is specific to the API
+            firstname.innerHTML = row.FirstName; 
+            lastname.innerHTML = row.LastName; 
+            residence.innerHTML = row.Residence; 
+            // this builds each td into tr
+            tr.appendChild(firstname);
+            tr.appendChild(lastname);
+            tr.appendChild(residence);
+            // add HTML to container
+            resultContainer.appendChild(tr);
+          }
+      })
+  })
+
+</script>
+
+
+
+
 ### Stop the Python/Flask process
 This script ends Python/Flask process using pipes to obtain the python process.  Then echo the python process to `kill -9`.  
 
@@ -262,10 +491,13 @@ This script ends Python/Flask process using pipes to obtain the python process. 
 ```python
 %%script bash
 
-python_ps=$(lsof -i :5001 | awk '/Python/ {print $2}')
+python_ps=$(lsof -i :5001 | awk '/python/ {print $2}')
 echo "Killing python process with PID: $python_ps"
 echo $python_ps | xargs kill -9
 ```
+
+    Killing python process with PID: 1926
+
 
 ## Hacks
 Edit, stop and start the web server.
