@@ -3,6 +3,7 @@ layout: post
 title: Project Feature Write-up 2
 description: A write-up of my InterTravel feature.
 permalink: /posts/feature-write-up-2/
+show_reading_time: False
 comments: True
 ---
 
