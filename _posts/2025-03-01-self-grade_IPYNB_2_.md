@@ -75,7 +75,7 @@ Next Steps:
 | Frontend Contributions | Backend Contributions |
 |------------------------|-----------------------|
 | Highest Contributor    | Highest Contributor   |
-| ![image]("../images/self-grade/frontend.png") | ![image]("../images/self-grade/backend.png") |
+| ![image](https://github.com/aadibhat09/aadi_2025/blob/main/images/self-grade/frontend.png?raw=true) | ![image](https://github.com/aadibhat09/aadi_2025/blob/main/images/self-grade/backend.png?raw=true) |
 
 <br>
 
