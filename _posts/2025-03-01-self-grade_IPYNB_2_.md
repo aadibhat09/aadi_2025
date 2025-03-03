@@ -85,5 +85,5 @@ Next Steps:
 | Full Stack Project Demo & Feedback     | 2          | 1.6        | I successfully demonstrated my feature at N@TM and incorporated some feedback into my future plans. |
 | Project Feature Blog (CPT/FRQ Language) | 1          | 0.93        | I thouroughly read through all the CPT requirements and structured my write-up around these with thorough code snippets and explanations. |
 | MCQ Completion                         | 1          | 0.95        | I got a good score of 62/67 on the MCQ, and for the remaining 5 questions I thoroughly explained the reasoning for the question and what  should improve on. |
-| Retrospective & Reflection              | 1          | 0.92       | I reflected on the strengths and weaknesses of both my project and as an individual in CSP and on my future in computer science. Our group also did a practice demo with Ms. Pataki. I messaged a detailed summary of my review in advanced to Mr. Mort. |
-| Overall Score                           | 10         | 9.0    |  |
+| Retrospective & Reflection              | 1          | 0.93       | I reflected on the strengths and weaknesses of both my project and as an individual in CSP and on my future in computer science. Our group also did a practice demo with Ms. Pataki. I messaged a detailed summary of my review in advanced to Mr. Mort. |
+| Overall Score                           | 10         | 9.1    |  |
