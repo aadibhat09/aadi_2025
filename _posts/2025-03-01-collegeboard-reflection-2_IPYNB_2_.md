@@ -10,6 +10,8 @@ comments: True
 
 Today, I took the 2025 practice multiple-choice exam on Collegeboard and I received a score of 62/67.
 
+<img src="../images/cb-reflection-2/image.png" width="500px" height="auto">
+
 Here's what I got wrong and an explanation of the correct answer:
 
 <br>
@@ -121,6 +123,18 @@ numOccurrences(treeList, "maple")
 <br>
 
 I chose answers B and D. Answer D has an array of `["birch", "maple", "oak"]` and calls `numOccurrences(treeList, "spruce")`.  This still returns the intended value because `"spruce"` does not appear in `treeList` at all, thus `count` will never change and will be displayed at `0`.
+
+<br>
+<hr>
+
+## My Learnings
+Through my completion of the quiz, I was able to learn a lot about both the expectations from this cource, and where I stand as a CS student. Mainly, I was able to understand what a College Board MCQ is really like, and what types of questions they tend to ask. I also was able to see how well I currently understand the curriculum, and while I did achieve a decent score, I feel that I have room to improve in both my efficiency and logical approach.
+I learned that College Board has 5 big ideas for the class:
+- Creative Development
+- Data
+- Algorithms and Programming
+- Computer Systems
+- Impact of Computing
 
 <br>
 <hr>
