@@ -15,7 +15,7 @@ Here's what I got wrong and an explanation of the correct answer:
 <br>
 <hr>
 
-## Question 16
+## Question 16 (Skill 4.C)
 
 <br>
 
@@ -37,7 +37,7 @@ I chose answer B, which is `Inserting index ← index + 1 between lines 7 an
 <br>
 <hr>
 
-## Question 40
+## Question 40 (Skill 5.D)
 
 <br>
 
@@ -57,7 +57,7 @@ I chose answer B, which is `A certificate authority issues passwords that grant 
 <br>
 <hr>
 
-## Question 47
+## Question 47 (Skill 1.A)
 
 <br>
 
@@ -77,7 +77,7 @@ I chose answer B, which is `The list numList must not contain any duplicate 
 <br>
 <hr>
 
-## Question 50
+## Question 50 (Skill 1.D)
 
 <br>
 
@@ -99,7 +99,7 @@ I chose answer A, which is `I only`. The first choice is correct because the ele
 <br>
 <hr>
 
-## Question 67
+## Question 67 (Skill 4.C)
 
 <br>
 
@@ -129,6 +129,22 @@ I chose answers B and D. Answer D has an array of `["birch", "maple", "oak"]` an
 
 I need to familiarize myself with topics such as time complexity, like in question 50, and certificate authority, like in question 40. I also missed a few questions because I did not spend enough time thouroughly reading each answer choice, which is why I missed 16, as I had thought that the index value was increasing and not decreasing. Overall, this MCQ shows that I should slow down on each question and familiarize myself with non-programming topics.
 
+Compared to the last practice test I took, I did much better and improved on topics such as citizen science and encryption which I had trouble on last trimester.
+
+Overall, I improved on:
+- Data Compression (67% to 100%)
+- Variables and Assignments (67% to 100%), Iteration (50% to 100%)
+- Digital Divide (0% to 100%)
+- Safe Computing (33% to 67%).
+
+So far, I still have not encountered these, but I can practice with other MCQs to understand these topics:
+- Skill 4.A: Explain how a code segment or program functions
+- Skill 6.A: Collaborate in the development of solutions
+- Skill 6.B: Use safe and secure methods when using computing devices
+
 <br>
 
+### 2020 vs. 2018
+
 <img src="../images/cb-reflection-2/analysis.png" width="1000px" height="auto">
+<img src="../images/cb-reflection-2/analysis-old.png" width="1000px" height="auto">
