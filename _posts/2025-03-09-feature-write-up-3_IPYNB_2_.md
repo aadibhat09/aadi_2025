@@ -23,6 +23,9 @@ This blog explains how I used Collegeboard's CPT requirements to refine my code.
 This function takes in four parameters from the DOM. A fifth argument is inputted by the user once the function is called, and these five arguments are sent to the backend to store in a database.
 
 This meets the CPT requirement of **user input handling** because the `rating` and `note` parameters are inputted by the user through a text field. This also meets the requirement of **list usage** by collecting the hotel information from the DOM. Furthermore, this utilizes **algorithm implementation** by first **sequencing** (posts a hotel from user input and update UI to say "rating added"), **selecting** (makes sure that all parameters, including the `note`, are available), **iteration** (using a loop to iterate through all hotel cards and add them to the DOM), and **program output** (by updating the button from saying "add rating" to "rated").
+
+In this function, I loop through each hotel from the OpenStreetMap API. The hotel is a JSON with properties such as name, city, country, etc. I create a card div to prepare to add hotel information. Then, I store the hotel information from the JSON into variables. I create a button to add a review, that when clicked will call the postHotelData() function to update the backend. In that function, I take in parameters for hotel, city, and country name, and the rating. I ask the user for a note to add, and then this information is stored in a JSON that is posted to the backend.
+
 ```js
 
 async function findHotels() {
@@ -92,6 +95,8 @@ This uses a RESTful API using Flask. It uses the CRUD operations of create (post
 
 This meets the CPT requirement of **user input handling** because the CRUD operations process input that the user gives, for example a user could ask to update a rating. This also meets the requirement of **list usage** by storing hotel data in a database. Furthermore, this is a **student-developed procedure**. For example, my DELETE method will check for an ID in the body, ensure that the current user is an admin, and update the database likewise. This uses **algorithms** by first **sequencing** (ensures that the input is valid and contains an ID), **selecting** (returns an error if the the user is not an admin), **iteration** (the method is called whenever a delete request is submitted), and **program output** (it will result in the frontend updating or receving an error).
 
+In this API, I have a CRUD class where I use each CRUD request to process. This example is the delete request. I ensure that the data that is in th request contains an ID. If not, an error is returned. I also ensure that the current user is an admin for safety purposes. If these criteria are met, then the hotel is deleted from the backend and a success message is sent.
+
 ```py
 class HotelAPI:
 
@@ -129,6 +134,8 @@ class HotelAPI:
 All of the data is stored in `user_management.db`.
 
 This meets the CPT requirement of **user input handling** because each of the properties of this class are inputted by the user. This also meets the requirement of **list usage** by storing hotel data in a database. This uses **algorithms** by first **sequencing** (through the `initHotel()` method), **selecting** (returns an integrity error if eneded), **iteration** (each test data is added to the database), and **program output** (the database will be updated).
+
+In my hotel model, I define each parameter for my hotel that is stored as a column in the table. In the initHotel() function, I create test data with the Hotel class that is added to the backend whenever I clean the database. It will iterate through this test data to add it.
 
 ```py
 class Hotel(db.Model):
@@ -183,6 +190,8 @@ class Hotel(db.Model):
 I used an API from OpenStreetMap to find hotels.
 
 This meets the CPT requirement of **user input handling** because the data is added to the DOM to later be changed by the user. This also meets the requirement of **list usage** by collecting the data as a JSON to extract certain keys.
+
+In this function, I use the OpenStreetMap API while filtering for destination and place. The response is a JSON. The rest of the code was explained earlier, as I parse through each hotel in the JSON and add it to the DOM.
 
 ```js
 async function FindHotels() {

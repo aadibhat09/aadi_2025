@@ -42,11 +42,31 @@ type: ccc
 
 ```python
 # uncomment the following line to install the pandas library
-# !pip install pandas 
+!pip install pandas 
 
 '''Pandas is used to gather data sets through its DataFrames implementation'''
 import pandas as pd
 ```
+
+    Collecting pandas
+      Using cached pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (89 kB)
+    Collecting numpy>=1.26.0 (from pandas)
+      Downloading numpy-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+    [2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m62.0/62.0 kB[0m [31m1.6 MB/s[0m eta [36m0:00:00[0m
+    [?25hRequirement already satisfied: python-dateutil>=2.8.2 in /home/aadib/nighthawk/aadi_2025/venv/lib/python3.12/site-packages (from pandas) (2.9.0.post0)
+    Collecting pytz>=2020.1 (from pandas)
+      Using cached pytz-2025.1-py2.py3-none-any.whl.metadata (22 kB)
+    Collecting tzdata>=2022.7 (from pandas)
+      Using cached tzdata-2025.1-py2.py3-none-any.whl.metadata (1.4 kB)
+    Requirement already satisfied: six>=1.5 in /home/aadib/nighthawk/aadi_2025/venv/lib/python3.12/site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+    Using cached pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.7 MB)
+    Downloading numpy-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.1 MB)
+    [2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m16.1/16.1 MB[0m [31m6.0 MB/s[0m eta [36m0:00:00[0m00:01[0m00:01[0m
+    [?25hUsing cached pytz-2025.1-py2.py3-none-any.whl (507 kB)
+    Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB)
+    Installing collected packages: pytz, tzdata, numpy, pandas
+    Successfully installed numpy-2.2.3 pandas-2.2.3 pytz-2025.1 tzdata-2025.1
+
 
 # Cleaning Data
 
