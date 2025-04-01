@@ -22,10 +22,24 @@ A Creative Commons (CC) License is a type of public copyright license that enabl
 
 I discussed with Rayhaan. We decided that first, you must understand the copyright laws to ensure that you are not making any mistakes. Then, you must use original content, get permission, and avoid plagiarism. If you are publishing your own content, you must use copyright, trademark, registration, etc.
 
+## Homework Hacks
+
+### Task 1: Select a License
+
+I chose to use an Apache License. This is a permissive license whose main conditions require preservation of copyright and license notices.
+
+## Task 2: Explain your Choice
+
+I decided to use an Apache License because others will be able to look at my code and make their own changes if they want to, but even if they do, it is still copyrighted under my name. This encourages collaboration, especially with open source platforms like GitHub, but also makes sure that I get credit for it.
+
+## Task 3: Add the License to your Repository
+
 [This is my Apache License in my personal repository.](https://github.com/aadibhat09/aadi_2025?tab=Apache-2.0-1-ov-file)
 
-## Description of Pilot City Project
+## Task 4 (extra): Define your Project.
 
 Our project is SD IMOP. It is a platform that aims toward city infrastructure management, to help with issues in the city infrastructure. This is a form of preventative maintenance because it is designed to solve problems within our city infrastructure before they become too severe.
 
-[This is my Apache License in my personal repository.](https://github.com/adik1025/imop_frontend/blob/main/LICENSE)
+
+
+[This is an MIT license in our team repository.](https://github.com/adik1025/imop_frontend/tree/main?tab=MIT-1-ov-file)
