@@ -2,7 +2,7 @@
 layout: post
 title: Safe Computing Blog
 description: A blog for the Safe Computing team
-permalink: /postssafe-computing/
+permalink: /posts/safe-computing/
 comments: True
 ---
 
