@@ -2,7 +2,7 @@
 layout: post
 title: Cybersecurity Panel Blog
 description: A blog for the Cybersecurity Panel
-permalink: /posts/lybersecurity-panel/
+permalink: /posts/cybersecurity-panel/
 comments: True
 ---
 
