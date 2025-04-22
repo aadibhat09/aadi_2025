@@ -123,6 +123,37 @@ play_rock_paper_scissors()
 <br>
 <hr>
 
+# MCs
+
+<br>
+
+## Question 1
+
+Answer: C
+
+3 1 2 because 3 cannot be printed on the first iteration
+
+## Question 2
+
+Answer: D
+
+This makes the output have a 75% chance
+
+## Question 3
+
+Answer: C
+
+This won’t be accurate
+
+## Question 4
+
+Answer: D
+
+The number of predators does not change
+
+<br>
+<hr>
+
 # Homework Hacks
 
 <br>
