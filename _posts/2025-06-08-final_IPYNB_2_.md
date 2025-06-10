@@ -54,3 +54,46 @@ Through Open Coding Society Analytics, I developed the skills of...
 - Leadership
 - Collaboration
 - AGILE methodology
+
+
+## Certifications (Fictional)
+These certifications highlight key capabilities I’ve cultivated across a year of technical and collaborative growth.
+
+- **Distributed Systems Practitioner (DSP)**  
+  Awarded for deploying resilient, scalable microservices and implementing load balancing strategies under real-time constraints.
+
+- **Creative Interface Strategist (CIS)**  
+  Recognized for UX-first frontends that blend user empathy with component reusability — including a custom-built design system.
+
+- **Data Operations Engineer (DOE)**  
+  Given for managing complex data pipelines, versioning, and syncing across Firebase, Sheets APIs, and local stores.
+
+- **DevOps Field Agent (DFA)**  
+  Earned by automating testing, deployment, and infrastructure provisioning in live collaborative environments.
+
+- **Human-Centered Systems Designer (HCSD)**  
+  Granted for building tools that prioritize clarity, accessibility, and user onboarding — often inspired by peer feedback.
+
+---
+
+## Tokens & NFTs (My Developer Identity)
+These conceptual tokens embody how I show up to technical work — persistent, intentional, and always iterative.
+
+- **`Forecaster`**  
+  For anticipating blockers and designing flexible solutions ahead of shifting requirements.
+
+- **`Architect of Flow`**  
+  For streamlining developer experience — from shared script standards to onboarding walkthroughs.
+
+- **`Patchmaster`**  
+  For zero-drama fixes that land with precision: no regression, no confusion, no stress.
+
+- **`Glue Coder`**  
+  For writing the connective logic that brings disjointed APIs, spreadsheets, and frontend state into harmony.
+
+- **`Edgecase Whisperer`**  
+  For seeing the gaps others miss — and handling them with elegance, not duct tape.
+
+- **`Intentional Minimalist`**  
+  For knowing when *not* to add more code — prioritizing clarity, simplicity, and longevity.
+
