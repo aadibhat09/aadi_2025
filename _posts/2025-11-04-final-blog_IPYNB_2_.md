@@ -56,6 +56,6 @@ Ultimately, I want to focus on how different layers of software work together ef
 
 I contributed heavily to our class's codebase, both frontend and backend. My strong work in computer science can be shown through these analytics.
 
-<img src="images/contributions.png">
-<img src="images/pages-analytics.png">
-<img src="images/pages-predict.png">
+<img src="{site.baseurl}}/images/contributions.png">
+<img src="{site.baseurl}}/images/pages-analytics.png">
+<img src="{site.baseurl}}/images/pages-predict.png">
