@@ -197,12 +197,12 @@ My output:
 
 Expected output:
 
-<img src="{site.baseurl}}/images/expected-output.png">
+<img src="{{site.baseurl}}/images/expected-output.png">
 
 Everything matched up!
 
 # Coderunner proof
 
-<img src="{site.baseurl}}/images/code-runner-proof.png">
+<img src="{{site.baseurl}}/images/code-runner-proof.png">
 
 
