@@ -201,3 +201,8 @@ Expected output:
 
 Everything matched up!
 
+# Coderunner proof
+
+<img src="{site.baseurl}}/images/code-runner-proof.png">
+
+
