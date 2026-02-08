@@ -1,8 +1,8 @@
 ---
 layout: post
-title: CSA 2023 FRQ 1 Homework
-description: Homework blog for CSA 2023 FRQ 1
-permalink: /posts/frq-2023-1/
+title: CSA 2016 FRQ 3 Homework
+description: Homework blog for CSA 2016 FRQ 3
+permalink: /posts/frq-2016-3/
 comments: True
 ---
 
