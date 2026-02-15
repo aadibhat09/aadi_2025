@@ -9,7 +9,7 @@ comments: True
 # Challenge Part A
 
 
-```Java
+```java
 class Feeder
 {
     private int currentFood;
@@ -62,7 +62,7 @@ Main.main(null);
 # Challenge Part B
 
 
-```Java
+```java
 class Feeder
 {
     private int currentFood;

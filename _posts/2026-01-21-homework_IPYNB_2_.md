@@ -9,7 +9,7 @@ comments: True
 # Challenge #1
 
 
-```Java
+```java
 class Scoreboard {
 
     private int team1Score;
