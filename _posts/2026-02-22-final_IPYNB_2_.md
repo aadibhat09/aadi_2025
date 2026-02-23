@@ -10,17 +10,17 @@ comments: True
 
 | GitHub Analytics |
 |---|
-| ![GitHub Analytics]("{{site.baseurl}}/images/2-22-26-analytics.png") |
+| ![GitHub Analytics]({{site.baseurl}}/images/2-22-26-analytics.png) |
 
 | OCS Analytics |
 |---|
-| ![OCS Analytics]("{{site.baseurl}}/images/2-22-26-analytics-2.png") |
+| ![OCS Analytics]({{site.baseurl}}/images/2-22-26-analytics-2.png) |
 
 # MCQ Analysis
 
 | MCQ 1 (old) | MCQ 2 (new) | 
 |---|--|
-| ![MCQ 1 (old)]("{{site.baseurl}}/images/36of42.png") | ![MCQ 2 (new)]("{{site.baseurl}}/images/39of42.png") |
+| ![MCQ 1 (old)]({{site.baseurl}}/images/36of42.png) | ![MCQ 2 (new)]({{site.baseurl}}/images/39of42.png) |
 | **36 / 42** | **39 / 42** |
 | **85.7% Accuracy** | **92.9% Accuracy** |
 | **1:16:33** | **1:07:00** |
@@ -39,9 +39,8 @@ The mistakes cluster around **procedural tracing** (loops and string operations)
 | Q14           | Equivalent Boolean expression  | 2.6 - Comparing Boolean Expressions    |
 | Q19           | Adding and setting in numList | 4.7 - Wrapper Classes & 4.8 - `ArrayList` Methods        |
 
----
 
-### III. Deep Analysis, Approach, and Corrections
+## III. Deep Analysis, Approach, and Corrections
 
 ### **Q12 – Expression Equivalent to Nested Ifs**
 
@@ -79,7 +78,6 @@ Combining these gives: `(num < -100) || (num > 0 && num < 100)`.
 **Correction:**  
 When simplifying nested conditionals, explicitly write out the mathematical ranges where the variable changes state, then find the complement. Don't rely on intuition for complex boundary conditions.
 
----
 
 ### **Q14 – Equivalent Boolean Expression**
 
@@ -101,7 +99,6 @@ Substituting this back into the original expression:
 **Correction:**  
 Apply De Morgan's Laws strictly step-by-step. `!(A && B) -> !A || !B`. Never alter operators outside the negated parentheses during this step.
 
----
 
 ### **Q19 – Adding and Setting in ArrayList**
 
@@ -132,7 +129,6 @@ Let's trace the list state after each operation:
 **Correction:**  
 Always remember the method signatures: `add(index, element)` shifts elements to the right, while `set(index, element)` replaces the existing element. Write out the array state after *every single line* to prevent mental mix-ups.
 
----
 
 ## IV. Comparison: MC1 vs MC2
 
