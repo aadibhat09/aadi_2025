@@ -9,7 +9,7 @@ comments: True
 # Challenge Part A
 
 
-```Java
+```java
 
 class LightBoard
 {
@@ -62,7 +62,7 @@ Main.main(null)
 # Challenge Part B
 
 
-```Java
+```java
 
 class LightBoard
 {
