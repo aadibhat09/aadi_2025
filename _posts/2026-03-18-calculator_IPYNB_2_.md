@@ -7,110 +7,119 @@ description: A deployed-site calculator that works like a regular calculator and
 
 <style>
   .rpn-wrap {
-    max-width: 860px;
-    margin: 1rem auto;
-    padding: 1rem;
-    border-radius: 14px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    background: rgba(0, 0, 0, 0.22);
-    backdrop-filter: blur(4px);
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fafafa;
+    font-family: system-ui, -apple-system, sans-serif;
   }
 
   .rpn-title {
-    margin: 0 0 0.75rem;
-    font-size: 1.3rem;
+    margin: 0 0 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
   }
 
   .rpn-row {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 0.5rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1rem;
   }
 
   .rpn-input {
     width: 100%;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    background: rgba(255, 255, 255, 0.08);
-    color: inherit;
-    padding: 0.7rem 0.8rem;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #bbb;
+    background: white;
+    color: #333;
+    padding: 0.6rem 0.7rem;
     font-size: 1rem;
   }
 
   .rpn-btn {
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 10px;
-    padding: 0.65rem 0.85rem;
-    background: rgba(255, 255, 255, 0.09);
-    color: inherit;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 0.55rem 0.7rem;
+    background: #f0f0f0;
+    color: #333;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 0.9rem;
   }
 
   .rpn-btn:hover {
-    background: rgba(255, 255, 255, 0.16);
+    background: #e0e0e0;
   }
 
   .rpn-grid {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 0.45rem;
-    margin-bottom: 0.9rem;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.4rem;
+    margin-bottom: 1rem;
   }
 
   .rpn-panels {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.7rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
   }
 
   .rpn-panel {
-    border: 1px solid rgba(255, 255, 255, 0.22);
-    border-radius: 10px;
-    padding: 0.7rem;
-    background: rgba(255, 255, 255, 0.05);
-    min-height: 86px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 0.8rem;
+    background: white;
+    min-height: auto;
   }
 
   .rpn-label {
-    font-size: 0.82rem;
-    opacity: 0.8;
-    margin-bottom: 0.4rem;
+    font-size: 0.75rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.4px;
   }
 
   .rpn-value {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-    word-break: break-word;
+    font-family: monospace;
+    word-break: break-all;
+    font-size: 0.85rem;
+    color: #333;
   }
 
   .rpn-steps {
-    margin-top: 0.7rem;
-    border: 1px solid rgba(255, 255, 255, 0.22);
-    border-radius: 10px;
-    padding: 0.7rem;
-    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 0.8rem;
+    background: white;
+    margin-bottom: 1rem;
   }
 
   .rpn-steps ul {
-    margin: 0.4rem 0 0;
-    padding-left: 1.2rem;
+    margin: 0.5rem 0 0;
+    padding-left: 1.5rem;
   }
 
   .rpn-steps li {
-    margin-bottom: 0.2rem;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    margin-bottom: 0.3rem;
+    font-size: 0.85rem;
+    font-family: monospace;
+    color: #444;
   }
 
   .rpn-msg {
-    margin-top: 0.65rem;
-    font-size: 0.92rem;
-    min-height: 1.2rem;
+    font-size: 0.85rem;
+    color: #666;
+    min-height: 1rem;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 600px) {
     .rpn-grid {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-columns: repeat(4, 1fr);
     }
 
     .rpn-panels {
@@ -120,11 +129,10 @@ description: A deployed-site calculator that works like a regular calculator and
 </style>
 
 <div class="rpn-wrap" id="rpn-calculator">
-  <h3 class="rpn-title">Regular Calculator + RPN Visualizer</h3>
+  <h3 class="rpn-title">RPN Calculator</h3>
 
   <div class="rpn-row">
-    <input id="expr-input" class="rpn-input" type="text" placeholder="Try: 2 + 3 * 4 or 2(3+4)" />
-    <button id="eval-btn" class="rpn-btn">Evaluate</button>
+    <input id="expr-input" class="rpn-input" type="text" placeholder="2 + 3 * 4" />
   </div>
 
   <div class="rpn-grid" id="keypad">
@@ -132,26 +140,27 @@ description: A deployed-site calculator that works like a regular calculator and
     <button class="rpn-btn" data-insert="8">8</button>
     <button class="rpn-btn" data-insert="9">9</button>
     <button class="rpn-btn" data-insert=" / ">÷</button>
-    <button class="rpn-btn" data-action="back">⌫</button>
+    <button class="rpn-btn" data-action="back">Back</button>
 
     <button class="rpn-btn" data-insert="4">4</button>
     <button class="rpn-btn" data-insert="5">5</button>
     <button class="rpn-btn" data-insert="6">6</button>
     <button class="rpn-btn" data-insert=" * ">×</button>
-    <button class="rpn-btn" data-action="clearExpr">CE</button>
+    <button class="rpn-btn" data-action="clearExpr">Clear</button>
 
     <button class="rpn-btn" data-insert="1">1</button>
     <button class="rpn-btn" data-insert="2">2</button>
     <button class="rpn-btn" data-insert="3">3</button>
-    <button class="rpn-btn" data-insert=" - ">-</button>
-    <button class="rpn-btn" data-action="clearStack">CS</button>
-
+    <button class="rpn-btn" data-insert=" - ">−</button>
     <button class="rpn-btn" data-insert="0">0</button>
-    <button class="rpn-btn" data-insert=".">.</button>
+
+    <button class="rpn-btn" data-insert="." style="grid-column: span 2;">.</button>
     <button class="rpn-btn" data-insert="(">(</button>
     <button class="rpn-btn" data-insert=")">)</button>
     <button class="rpn-btn" data-insert=" + ">+</button>
   </div>
+
+  <button id="eval-btn" class="rpn-btn" style="width: 100%; padding: 0.7rem; font-weight: 600; margin-bottom: 1rem;">Evaluate</button>
 
   <div class="rpn-panels">
     <div class="rpn-panel">
@@ -159,7 +168,7 @@ description: A deployed-site calculator that works like a regular calculator and
       <div id="rpn-output" class="rpn-value">—</div>
     </div>
     <div class="rpn-panel">
-      <div class="rpn-label">Main Stack (top → bottom)</div>
+      <div class="rpn-label">Main Stack</div>
       <div id="main-stack" class="rpn-value">[]</div>
     </div>
   </div>
