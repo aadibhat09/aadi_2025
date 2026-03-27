@@ -426,4 +426,4 @@ description: An RPN Visual Claculator
 
 ### About this calculator
 
-Enter regular math expressions using the keypad or type directly. The calculator evaluates your expression using the **Shunting Yard algorithm** to convert it into Reverse Polish Notation (RPN). Each step of the evaluation is displayed so you can see how the stack processes the operators and operands. Supports operator precedence, parentheses, and implicit multiplication (e.g., `2(3+4)` → `2 * (3 + 4)`).
+Enter regular math expressions using the keypad or type directly. The calculator evaluates your expression using the shunting yard algorithm to convert it into Reverse Polish Notation (RPN). Each step of the evaluation is displayed so you can see how the stack processes the operators and operands. Supports operator precedence, parentheses, and implicit multiplication (e.g., `2(3+4)` → `2 * (3 + 4)`).
