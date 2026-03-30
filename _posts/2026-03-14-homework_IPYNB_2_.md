@@ -9,7 +9,7 @@ comments: True
 # Challenge Part A
 
 
-```Java
+```java
 import java.util.ArrayList;
 
 public class Digits {
@@ -55,7 +55,7 @@ Digits.main(null);
 # Challenge Part B
 
 
-```Java
+```java
 import java.util.ArrayList;
 
 public class Digits {
