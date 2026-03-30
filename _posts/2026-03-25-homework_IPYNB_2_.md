@@ -136,3 +136,5 @@ Then I did Part (b). The key was using `findPosition` appropriately, which is wh
 # Area of Struggle
 
 This FRQ was relatively clean, but there was one thing to think about carefully: handling the jagged 2D array properly. In Part (b), when initializing the result array, I needed to mirror the structure of the input array. Some 2D arrays might not be rectangular (each row could have different lengths). By initializing `result[r]` inside the outer loop and setting its length to `intArr[r].length`, I ensured the result array had the exact same dimensions as the input, whether it was rectangular or jagged. This prevented any potential dimension mismatches.
+
+<img src="{{site.baseurl}}/images/idk2.png">
