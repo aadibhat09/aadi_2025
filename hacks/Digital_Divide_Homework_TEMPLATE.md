@@ -1,5 +1,7 @@
 ---
-
+layout: page
+title: Digital Divide Homework Template
+permalink: /hacks/digital-divide-homework-template/
 ---
 
 ```python
